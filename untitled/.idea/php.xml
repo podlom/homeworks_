@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="C:\Users\Natalia\PhpstormProjects" />
+      <path value="C:\Users\Natalia\PhpstormProjects\untitled\.idea\inspectionProfiles" />
+      <path value="c:\php\includes" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.3.0" />
+</project>
