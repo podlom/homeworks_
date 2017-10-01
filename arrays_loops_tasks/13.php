@@ -6,7 +6,7 @@
  * Time: 22:48
  */
 
-$array = array('1', '2', '3', '4', '5', '6', '7', '8', '9');
+$array = array('1', '2', '9', '4', '5', '6', '7', '8', '9');
 echo "<table><tr>";
 foreach($array as $i) {
     foreach($array as $j)
