@@ -6,7 +6,6 @@
  * Time: 21:41
  */
 
-$str1 = explode(" ", $_POST['str1']);
 
 function topTree ($a) {
         $result = array();
@@ -23,9 +22,27 @@ function topTree ($a) {
            array_values( $a);
            $max = ' ';
         }
-
     print_r( $result);
      return $result;
 }
+if (!empty($_POST['str1'])) {
+  $str1 = explode(" ", $_POST['str1']);
+  topTree($str1);
+}
 
-topTree($str1);
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Two</title>
+</head>
+<body>
+<form method="post" action="">
+    <textarea name="str1" required></textarea><br>
+    <input type="submit" value="Найти самые длинные слова!">
+</form>
+</body>
+</html>
